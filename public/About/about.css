@@ -230,6 +230,7 @@ a {
     font-size: 1.5em;
     background-color: #A67A5B;
     color: white;
+    border-radius: 10px;
 }
 
 .certificates-about-cont {
@@ -489,6 +490,7 @@ a {
         padding: 8px;
         margin: 8px;
         font-size: 1.2em;
+        border-radius: 5px;
     }
 }
 
@@ -505,6 +507,7 @@ a {
         width: 77%;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 3px;
     }
 
     .certificates-list p {
