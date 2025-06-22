@@ -112,7 +112,7 @@ a {
 }
 
 .about-me-main {
-    height: 221vh;
+    height: fit-content;
     min-height: 100vh;
     background-color: var(--primary-color);
     justify-content: center;
@@ -238,6 +238,7 @@ a {
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .certificates-about-cont > span {
