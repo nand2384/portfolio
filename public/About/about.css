@@ -109,11 +109,11 @@ a {
 
 .main-section {
     display: flex;
+    height: max-content;
 }
 
 .about-me-main {
-    height: fit-content;
-    min-height: 100vh;
+    height: max-content;
     background-color: var(--primary-color);
     justify-content: center;
 }
