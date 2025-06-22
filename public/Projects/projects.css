@@ -333,6 +333,34 @@ a {
   position: relative;
   z-index: 2;
   transition: transform 0.3s ease;
+  background-color: #faf0dc;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fallback for when images don't load */
+.flip-card-front img:not([src]), 
+.flip-card-front img[src=""],
+.flip-card-front img[src*="error"] {
+  background: linear-gradient(135deg, #A67A5B 0%, #d2ad93 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #faf0dc;
+  font-family: "Teko", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.flip-card-front img:not([src])::after, 
+.flip-card-front img[src=""]::after,
+.flip-card-front img[src*="error"]::after {
+  content: 'Image';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .flip-card-front:hover img {
